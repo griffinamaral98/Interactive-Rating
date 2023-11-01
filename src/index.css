@@ -1,0 +1,157 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --black-gradient: hsl(215, 20%, 17%);
+  --orange: hsl(25, 97%, 53%);
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-dark-blue);
+  overflow: hidden;
+}
+
+.rating-card,
+.thank-you-card {
+  width: 410px;
+  height: 360px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  padding: 32px;
+}
+
+.thank-you-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thank-you-img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.star-container,
+.ratings {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue, #262e38);
+}
+
+.heading {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.description {
+  padding-top: 7px;
+  color: var(--light-grey);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 40px;
+}
+
+.ratings-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 21px 0 32px;
+}
+
+.ratings {
+  color: var(--medium-grey);
+}
+
+.ratings:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.active {
+  background-color: var(--medium-grey);
+  color: var(--white);
+}
+
+button {
+  width: 400px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 22.5px;
+  background-color: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+.selected-rating {
+  width: 193px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 22.5px;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.selected-rating span {
+  color: var(--orange);
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.thanks-header {
+  margin-top: 36px;
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.thanks-para {
+  color: var(--light-grey);
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: -12px;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--white);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import RatingPage from "./components/RatingPage";
-import Rating from "./components/Rating";
 import ThankYou from "./components/ThankYou";
 import Footer from "./components/Footer";
 

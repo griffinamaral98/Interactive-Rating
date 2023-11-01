@@ -81,6 +81,7 @@ body {
 
 .ratings {
   color: var(--medium-grey);
+  cursor: pointer;
 }
 
 .ratings:hover {

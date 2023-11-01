@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/griffinamaral98/Interactive-Rating)
-- Live Site URL: [Add live site URL here](https://griffinamaral98.github.io/Interactive-Rating)
+- Live Site URL: [Live site URL](https://griffinamaral98.github.io/Interactive-Rating)
 
 ## My process
 
